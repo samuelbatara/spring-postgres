@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/demo
+    username: samule
+    password: samule
+    driverClassName: org.postgresql.Driver
+
+server:
+  error:
+    include_message: always
